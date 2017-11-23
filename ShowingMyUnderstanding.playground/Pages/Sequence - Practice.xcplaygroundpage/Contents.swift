@@ -43,3 +43,21 @@ canvas.defaultLineWidth = 5
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
  */
 PlaygroundPage.current.liveView = canvas.imageView
+
+
+canvas.fillColor = Color.black
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
+
+
+// Yellow
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 75, centreY: 150, width: 100, height: 100)
+
+
+
+
+
+
+
+
+
