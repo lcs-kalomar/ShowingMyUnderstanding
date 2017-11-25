@@ -44,18 +44,62 @@ canvas.defaultLineWidth = 5
  */
 PlaygroundPage.current.liveView = canvas.imageView
 
+canvas.drawRectangle(centreX: 150, centreY: 150, width: 300, height: 300)
+// No borders
+canvas.drawShapesWithBorders = false
 
-canvas.fillColor = Color.black
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
+// Thick lines
+canvas.defaultLineWidth = 5
+
+// Add your code below... remember to use comments to indicate your intent
+//Green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 75, centreY: 150, width: 100, height: 100)
+
+//Yellow  BALOON
+canvas.fillColor = Color(hue: 58, saturation: 80, brightness: 93, alpha: 100)
+canvas.drawEllipse(centreX: 125, centreY: 150, width: 100, height: 100)
 
 
-// Yellow
+// Red BALOON
+canvas.fillColor = Color(hue: 0, saturation: 70, brightness: 100, alpha: 80)
+canvas.drawEllipse(centreX: 175, centreY: 150, width: 100, height: 100)
+
+// TRANSLUCENT Green
 canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 50)
 canvas.drawEllipse(centreX: 75, centreY: 150, width: 100, height: 100)
 
+// TRANSLCENT Yellow  BALOON
+canvas.fillColor = Color(hue: 58, saturation: 80, brightness: 93, alpha: 50)
+canvas.drawEllipse(centreX: 125, centreY: 150, width: 100, height: 100)
 
+// Blue Baloon
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawEllipse(centreX: 225, centreY: 150, width: 100, height: 100)
 
+// Translucent Red BALOON
+canvas.fillColor = Color(hue: 0, saturation: 70, brightness: 100, alpha: 50)
+canvas.drawEllipse(centreX: 175, centreY: 150, width: 100, height: 100)
 
+// Translucent Blue Baloon
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 225, centreY: 150, width: 100, height: 90)
+
+// Green Line
+canvas.fillColor = Color.init(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(centreX: 75, centreY: 55, width: 5, height: 90)
+
+// Yellow Line
+canvas.fillColor = Color.init(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(centreX: 125, centreY: 55, width: 5, height: 90)
+
+// Red Line
+canvas.fillColor = Color(hue: 0, saturation: 70, brightness: 100, alpha: 80)
+canvas.drawRectangle(centreX: 175, centreY: 55, width: 5, height: 90)
+
+// Blue Line
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawRectangle(centreX: 225, centreY: 55, width: 5, height: 90)
 
 
 
