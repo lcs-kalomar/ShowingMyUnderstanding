@@ -33,6 +33,12 @@ PlaygroundPage.current.liveView = canvas.imageView
 
 canvas.drawLine(fromX: 100, fromY: 100, toX: 50, toY: 50)
 canvas.drawLine(fromX: 150, fromY: 150, toX: 20, toY:60 )
-ca
+canvas.drawLine(fromX: 120, fromY: 100, toX: 70, toY: 50)
+canvas.drawLine(fromX: 150, fromY: 150, toX: 250, toY: 50)
+
+canvas.drawLine(fromX: 180, fromY: 100, toX: 230, toY: 50)
+
+canvas.drawLine(fromX: 150, fromY: 100, toX: 200, toY: 50)
+
 
 
