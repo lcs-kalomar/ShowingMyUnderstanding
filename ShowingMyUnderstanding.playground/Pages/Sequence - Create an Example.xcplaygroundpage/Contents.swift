@@ -30,3 +30,9 @@ let canvas = Canvas(width: 300, height: 300)
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
  */
 PlaygroundPage.current.liveView = canvas.imageView
+
+canvas.drawLine(fromX: 100, fromY: 100, toX: 50, toY: 50)
+canvas.drawLine(fromX: 150, fromY: 150, toX: 20, toY:60 )
+ca
+
+
