@@ -19,10 +19,9 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+// Draw Reqtangle
+for y in stride(from: 0, through: 200, by: 100){
+    for x in stride(from: 0, through: 100, by: 50){
 
-/*:
- ## Template code
- The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
- */
-PlaygroundPage.current.liveView = canvas.imageView
+
+
